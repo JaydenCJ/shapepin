@@ -2,7 +2,7 @@
   "name": "shapepin",
   "version": "0.1.0",
   "description": "Pin the shape of JSON payloads from captured examples; fail CI when responses drift. Contracts inferred from real payloads with per-path tolerance rules.",
-  "author": "JaydenCJ",
+  "author": "JaydenCJ <aisingioro.kiyon@gmail.com>",
   "license": "MIT",
   "type": "module",
   "bin": {
