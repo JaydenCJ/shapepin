@@ -1,0 +1,53 @@
+{
+  "name": "shapepin",
+  "version": "0.1.0",
+  "description": "Pin the shape of JSON payloads from captured examples; fail CI when responses drift. Contracts inferred from real payloads with per-path tolerance rules.",
+  "author": "JaydenCJ",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "shapepin": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"tests/*.test.mjs\"",
+    "smoke": "bash scripts/smoke.sh"
+  },
+  "keywords": [
+    "json",
+    "contract-testing",
+    "schema-inference",
+    "api-drift",
+    "ci",
+    "snapshot-testing",
+    "validation"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenCJ/shapepin.git"
+  },
+  "homepage": "https://github.com/JaydenCJ/shapepin#readme",
+  "bugs": {
+    "url": "https://github.com/JaydenCJ/shapepin/issues"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "orders": [
+    {
+      "id": "e7f8a9b0-c1d2-4e3f-8a4b-5c6d7e8f9a0b",
+      "status": "canceled",
+      "total": 12.99,
+      "currency": "USD",
+      "placedAt": "tomorrow",
+      "customer": {
+        "id": "f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f9a0b1c",
+        "email": "kim@example.test"
+      },
+      "items": [
+        { "sku": "CBL-AUX-1M", "qty": 1, "price": "12.99", "discount": 0.1 }
+      ]
+    }
+  ],
+  "page": { "number": 1, "size": 20, "totalPages": 1 }
+}

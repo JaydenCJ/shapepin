@@ -1,0 +1,37 @@
+{
+  "orders": [
+    {
+      "id": "8a9b0c1d-2e3f-4a5b-9c6d-7e8f9a0b1c2d",
+      "status": "pending",
+      "total": 349.0,
+      "currency": "USD",
+      "placedAt": "2026-07-01T08:05:59Z",
+      "note": null,
+      "customer": {
+        "id": "2b3c4d5e-6f7a-4b8c-8d9e-0f1a2b3c4d5e",
+        "email": "sam@example.test"
+      },
+      "items": [
+        { "sku": "CHAIR-ERGO", "qty": 1, "price": 349.0 }
+      ]
+    },
+    {
+      "id": "c1d2e3f4-a5b6-47c8-9d0e-1f2a3b4c5d6e",
+      "status": "shipped",
+      "total": 44.25,
+      "currency": "USD",
+      "placedAt": "2026-07-02T13:22:31Z",
+      "note": "Gift wrap, please.",
+      "trackingNumber": "TRK-905112",
+      "customer": {
+        "id": "d4e5f6a7-b8c9-4d0e-8f1a-2b3c4d5e6f7a",
+        "email": "alex@example.test"
+      },
+      "items": [
+        { "sku": "MUG-500", "qty": 2, "price": 9.75 },
+        { "sku": "COASTER-4PK", "qty": 1, "price": 24.75 }
+      ]
+    }
+  ],
+  "page": { "number": 3, "size": 20, "totalPages": 3 }
+}

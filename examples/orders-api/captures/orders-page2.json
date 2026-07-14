@@ -1,0 +1,21 @@
+{
+  "orders": [
+    {
+      "id": "5e6f7a8b-9c0d-4e1f-a2b3-c4d5e6f7a8b9",
+      "status": "delivered",
+      "total": 18.0,
+      "currency": "USD",
+      "placedAt": "2026-06-25T16:40:12+09:00",
+      "note": null,
+      "trackingNumber": "TRK-771034",
+      "customer": {
+        "id": "1f2e3d4c-5b6a-4798-8a9b-0c1d2e3f4a5b",
+        "email": "mori@example.test"
+      },
+      "items": [
+        { "sku": "CBL-HDMI-2M", "qty": 3, "price": 6.0 }
+      ]
+    }
+  ],
+  "page": { "number": 2, "size": 20, "totalPages": 3 }
+}
